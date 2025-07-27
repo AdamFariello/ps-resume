@@ -1,0 +1,46 @@
+.horiBox {
+    display:flex;
+    flex-direction:row;
+    /* TODO: PUT IN A DIFFERENT SECTION
+    margin-left: auto;
+    margin-right: auto;
+    */
+}
+.vertBox {
+    display:flex;
+    flex-direction: column;
+}
+
+
+#topSection {
+    width: 50%;
+    display:flex;
+    justify-content:center;
+}
+
+
+#nameAndTitle {
+    margin-left: 3%;
+    margin-top: 5%;
+}
+#nameAndTitle > p {
+    margin:0   
+}
+
+
+#nameAndContact {
+    display:flex;
+    flex-direction: column;
+}
+.alternatingValue {
+    display:flex; 
+    padding: 0px;
+    margin: 0px;
+    height: 20px;
+    width: max-content;
+}
+.alternatingValue p:first-child{
+    color: purple; /*TODO: change color*/
+    margin-right: 3px;
+    font: bold;
+}

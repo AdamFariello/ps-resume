@@ -1,0 +1,22 @@
+.skillList_Header{
+    margin-bottom: 5px;
+    font-size: medium;
+}
+.skillList {
+    flex-wrap: wrap;
+    /*
+    width:auto;
+    height:auto;
+    */
+    padding-left: 5px;
+    margin: 0px;
+}
+.skillListEntry {
+    margin-left:2px;
+    margin-right:2px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.skillListEntry:before{
+    content: "» " /*TODO: GET RID OF THIS MIGHT MESS WITH ATP RESUME PROGRAMS*/
+}

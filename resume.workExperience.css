@@ -1,0 +1,42 @@
+/*Work Experience*/
+.sectionHeader {
+    display: flex;
+    border: .1px solid white;
+    background-color: bisque;
+    width: 500px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/*TODO: SIMPLIFY*/
+.workExp_container {
+    width: 500px;
+    padding:0%;
+}
+.workExp_sectionHeight {
+    height: 10px;
+    /*padding-bottom:28px;*/
+    margin-bottom: 28px;;
+}
+.workExp_jobTitle {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    margin-right: auto;
+}
+.workExp_dateRng {
+    margin-left:auto;
+    margin-bottom:10px;
+}
+.workExp_jobCompany {
+    font-size: small;
+    color: gray;
+}
+.workExp_jobDescription {
+    display:flex;
+    flex-wrap:wrap;
+    padding-left: 5px;
+    margin-top: 0px;
+}
